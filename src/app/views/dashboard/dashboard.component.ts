@@ -15,6 +15,10 @@ interface IUser {
   avatar: string;
   status: string;
   color: string;
+  border: string;
+  goodsRegistered: number;
+  goodsDeclared: number;
+  goodsnotDeclared: number;
 }
 
 @Component({
@@ -27,82 +31,106 @@ export class DashboardComponent implements OnInit {
 
   public users: IUser[] = [
     {
-      name: 'Yiorgos Avraamu',
+      name: 'Muhumuza Ivan',
       state: 'New',
-      registered: 'Jan 1, 2021',
-      country: 'Us',
-      usage: 50,
+      registered: 'Jan 1, 2022',
+      country: 'Ug',
+      usage: 70,
       period: 'Jun 11, 2021 - Jul 10, 2021',
       payment: 'Mastercard',
       activity: '10 sec ago',
       avatar: './assets/img/avatars/1.jpg',
       status: 'success',
-      color: 'success'
+      color: 'success',
+      border: 'Bunagana',
+      goodsRegistered:1098,
+      goodsDeclared: 1000,
+      goodsnotDeclared:98
     },
     {
-      name: 'Avram Tarasios',
+      name: 'Atuhairwe Angella',
       state: 'Recurring ',
-      registered: 'Jan 1, 2021',
+      registered: 'Jan 1, 2022',
       country: 'Br',
-      usage: 10,
+      usage: 30,
       period: 'Jun 11, 2021 - Jul 10, 2021',
       payment: 'Visa',
       activity: '5 minutes ago',
       avatar: './assets/img/avatars/2.jpg',
       status: 'danger',
-      color: 'info'
+      color: 'info',
+      border: 'Mpondwe',
+      goodsRegistered:576,
+      goodsDeclared: 120,
+      goodsnotDeclared:456
     },
     {
-      name: 'Quintin Ed',
+      name: 'Albert Kwikiriza',
       state: 'New',
-      registered: 'Jan 1, 2021',
+      registered: 'Jan 1, 2022',
       country: 'In',
-      usage: 74,
+      usage: 54,
       period: 'Jun 11, 2021 - Jul 10, 2021',
       payment: 'Stripe',
       activity: '1 hour ago',
       avatar: './assets/img/avatars/3.jpg',
       status: 'warning',
-      color: 'warning'
+      color: 'warning',
+      border: 'Malaba',
+      goodsRegistered: 353,
+      goodsDeclared: 230,
+      goodsnotDeclared:123
     },
     {
-      name: 'Enéas Kwadwo',
+      name: 'Kanyesigye Godfrey',
       state: 'Sleep',
-      registered: 'Jan 1, 2021',
+      registered: 'Jan 1, 2022',
       country: 'Fr',
-      usage: 98,
+      usage: 88,
       period: 'Jun 11, 2021 - Jul 10, 2021',
       payment: 'Paypal',
       activity: 'Last month',
       avatar: './assets/img/avatars/4.jpg',
       status: 'secondary',
-      color: 'danger'
+      color: 'danger',
+      border: 'Bunagana',
+      goodsRegistered: 1201,
+      goodsDeclared: 1098,
+      goodsnotDeclared:103
     },
     {
-      name: 'Agapetus Tadeáš',
+      name: 'Ongom Peter',
       state: 'New',
-      registered: 'Jan 1, 2021',
+      registered: 'Jan 1, 2022',
       country: 'Es',
-      usage: 22,
+      usage: 92,
       period: 'Jun 11, 2021 - Jul 10, 2021',
       payment: 'ApplePay',
       activity: 'Last week',
       avatar: './assets/img/avatars/5.jpg',
       status: 'success',
-      color: 'primary'
+      color: 'primary',
+      border: 'Katuna',
+      goodsRegistered: 113,
+      goodsDeclared: 103,
+      goodsnotDeclared:10
     },
     {
-      name: 'Friderik Dávid',
+      name: 'Friderik Lutaaya',
       state: 'New',
-      registered: 'Jan 1, 2021',
+      registered: 'Jan 1, 2022',
       country: 'Pl',
-      usage: 43,
+      usage: 83,
       period: 'Jun 11, 2021 - Jul 10, 2021',
       payment: 'Amex',
       activity: 'Yesterday',
       avatar: './assets/img/avatars/6.jpg',
       status: 'info',
-      color: 'dark'
+      color: 'dark',
+      border: 'Malaba',
+      goodsRegistered: 123,
+      goodsDeclared: 100,
+      goodsnotDeclared:23
     }
   ];
   public mainChart: IChartProps = {};

@@ -5,219 +5,219 @@ export const navItems: INavData[] = [
     name: 'Dashboard',
     url: '/dashboard',
     iconComponent: { name: 'cil-speedometer' },
-    badge: {
-      color: 'info',
-      text: 'NEW'
-    }
+    // badge: {
+    //   color: 'info',
+    //   text: 'NEW'
+    // }
   },
   {
     title: true,
-    name: 'Theme'
+    name: 'User Settings'
   },
   {
-    name: 'Colors',
+    name: 'UserRoles',
     url: '/theme/colors',
     iconComponent: { name: 'cil-drop' }
   },
   {
-    name: 'Typography',
+    name: 'User Activity',
     url: '/theme/typography',
     linkProps: { fragment: 'someAnchor' },
     iconComponent: { name: 'cil-pencil' }
   },
   {
-    name: 'Components',
+    name: 'System Settings',
     title: true
   },
   {
-    name: 'Base',
+    name: 'Borders',
     url: '/base',
     iconComponent: { name: 'cil-puzzle' },
     children: [
       {
-        name: 'Accordion',
+        name: 'Bunagana',
         url: '/base/accordion'
       },
       {
-        name: 'Breadcrumbs',
+        name: 'Mpondwe',
         url: '/base/breadcrumbs'
       },
       {
-        name: 'Cards',
+        name: 'Katuna',
         url: '/base/cards'
       },
       {
-        name: 'Carousel',
+        name: 'Malaba',
         url: '/base/carousel'
       },
-      {
-        name: 'Collapse',
-        url: '/base/collapse'
-      },
-      {
-        name: 'List Group',
-        url: '/base/list-group'
-      },
-      {
-        name: 'Navs & Tabs',
-        url: '/base/navs'
-      },
-      {
-        name: 'Pagination',
-        url: '/base/pagination'
-      },
-      {
-        name: 'Placeholder',
-        url: '/base/placeholder'
-      },
-      {
-        name: 'Popovers',
-        url: '/base/popovers'
-      },
-      {
-        name: 'Progress',
-        url: '/base/progress'
-      },
-      {
-        name: 'Spinners',
-        url: '/base/spinners'
-      },
-      {
-        name: 'Tables',
-        url: '/base/tables'
-      },
-      {
-        name: 'Tabs',
-        url: '/base/tabs'
-      },
-      {
-        name: 'Tooltips',
-        url: '/base/tooltips'
-      }
+      // {
+      //   name: 'Collapse',
+      //   url: '/base/collapse'
+      // },
+      // {
+      //   name: 'List Group',
+      //   url: '/base/list-group'
+      // },
+      // {
+      //   name: 'Navs & Tabs',
+      //   url: '/base/navs'
+      // },
+      // {
+      //   name: 'Pagination',
+      //   url: '/base/pagination'
+      // },
+      // {
+      //   name: 'Placeholder',
+      //   url: '/base/placeholder'
+      // },
+      // {
+      //   name: 'Popovers',
+      //   url: '/base/popovers'
+      // },
+      // {
+      //   name: 'Progress',
+      //   url: '/base/progress'
+      // },
+      // {
+      //   name: 'Spinners',
+      //   url: '/base/spinners'
+      // },
+      // {
+      //   name: 'Tables',
+      //   url: '/base/tables'
+      // },
+      // {
+      //   name: 'Tabs',
+      //   url: '/base/tabs'
+      // },
+      // {
+      //   name: 'Tooltips',
+      //   url: '/base/tooltips'
+      // }
     ]
   },
   {
-    name: 'Buttons',
+    name: 'Agencies',
     url: '/buttons',
     iconComponent: { name: 'cil-cursor' },
     children: [
       {
-        name: 'Buttons',
+        name: 'Immigration',
         url: '/buttons/buttons'
       },
       {
-        name: 'Button groups',
+        name: 'URA',
         url: '/buttons/button-groups'
       },
       {
-        name: 'Dropdowns',
+        name: 'Ministry of Trade',
         url: '/buttons/dropdowns'
       },
     ]
   },
   {
-    name: 'Forms',
+    name: 'Goods',
     url: '/forms',
     iconComponent: { name: 'cil-notes' },
     children: [
       {
-        name: 'Form Control',
+        name: 'Trader & Goods',
         url: '/forms/form-control'
       },
       {
-        name: 'Select',
+        name: 'GoodsRegistered',
         url: '/forms/select'
       },
       {
-        name: 'Checks & Radios',
+        name: 'GoodsDeclared',
         url: '/forms/checks-radios'
       },
       {
-        name: 'Range',
+        name: 'GoodsNotDeclared',
         url: '/forms/range'
       },
-      {
-        name: 'Input Group',
-        url: '/forms/input-group'
-      },
-      {
-        name: 'Floating Labels',
-        url: '/forms/floating-labels'
-      },
-      {
-        name: 'Layout',
-        url: '/forms/layout'
-      },
-      {
-        name: 'Validation',
-        url: '/forms/validation'
-      }
+      // {
+      //   name: 'Input Group',
+      //   url: '/forms/input-group'
+      // },
+      // {
+      //   name: 'Floating Labels',
+      //   url: '/forms/floating-labels'
+      // },
+      // {
+      //   name: 'Layout',
+      //   url: '/forms/layout'
+      // },
+      // {
+      //   name: 'Validation',
+      //   url: '/forms/validation'
+      // }
     ]
   },
   {
-    name: 'Charts',
+    name: 'BorderStatisticalData',
     url: '/charts',
     iconComponent: { name: 'cil-chart-pie' }
   },
   {
-    name: 'Icons',
+    name: 'BorderTransactions',
     iconComponent: { name: 'cil-star' },
     url: '/icons',
     children: [
       {
-        name: 'CoreUI Free',
+        name: 'Exports',
         url: '/icons/coreui-icons',
-        badge: {
-          color: 'success',
-          text: 'FREE'
-        }
+        // badge: {
+        //   color: 'success'
+          
+        // }
       },
       {
-        name: 'CoreUI Flags',
+        name: 'Imports',
         url: '/icons/flags'
       },
       {
-        name: 'CoreUI Brands',
+        name: 'CustomsClearance',
         url: '/icons/brands'
       }
     ]
   },
   {
-    name: 'Notifications',
+    name: 'SystemReports',
     url: '/notifications',
     iconComponent: { name: 'cil-bell' },
     children: [
       {
-        name: 'Alerts',
+        name: 'TraderAnnualReport',
         url: '/notifications/alerts'
       },
       {
-        name: 'Badges',
+        name: 'TraderMonthlyReport',
         url: '/notifications/badges'
       },
-      {
-        name: 'Modal',
-        url: '/notifications/modal'
-      },
-      {
-        name: 'Toast',
-        url: '/notifications/toasts'
-      }
+      // {
+      //   name: '',
+      //   url: '/notifications/modal'
+      // },
+      // {
+      //   name: 'Toast',
+      //   url: '/notifications/toasts'
+      // }
     ]
   },
-  {
-    name: 'Widgets',
-    url: '/widgets',
-    iconComponent: { name: 'cil-calculator' },
-    badge: {
-      color: 'info',
-      text: 'NEW'
-    }
-  },
-  {
-    title: true,
-    name: 'Extras'
-  },
+  // {
+  //   name: 'Widgets',
+  //   url: '/widgets',
+  //   iconComponent: { name: 'cil-calculator' },
+  //   badge: {
+  //     color: 'info',
+  //     text: 'NEW'
+  //   }
+  // },
+  // {
+  //   title: true,
+  //   name: 'Extras'
+  // },
   {
     name: 'Pages',
     url: '/login',
