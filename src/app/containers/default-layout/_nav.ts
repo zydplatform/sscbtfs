@@ -12,15 +12,15 @@ export const navItems: INavData[] = [
   },
   {
     title: true,
-    name: 'User Settings'
+    name: 'System User Management'
   },
   {
-    name: 'UserRoles',
+    name: 'System Users ',
     url: '/theme/colors',
     iconComponent: { name: 'cil-drop' }
   },
   {
-    name: 'User Activity',
+    name: 'Add System User',
     url: '/theme/typography',
     linkProps: { fragment: 'someAnchor' },
     iconComponent: { name: 'cil-pencil' }
@@ -30,7 +30,7 @@ export const navItems: INavData[] = [
     title: true
   },
   {
-    name: 'Borders',
+    name: 'Border Points',
     url: '/base',
     iconComponent: { name: 'cil-puzzle' },
     children: [
@@ -183,16 +183,19 @@ export const navItems: INavData[] = [
     ]
   },
   {
-    name: 'SystemReports',
-    url: '/notifications',
+    name: 'Traders',
     iconComponent: { name: 'cil-bell' },
     children: [
       {
-        name: 'TraderAnnualReport',
+        name: 'All Traders',
         url: '/notifications/alerts'
       },
       {
-        name: 'TraderMonthlyReport',
+        name: 'TraderDeclarations',
+        url: '/notifications/alerts'
+      },
+      {
+        name: 'TraderFacilitation',
         url: '/notifications/badges'
       },
       // {
