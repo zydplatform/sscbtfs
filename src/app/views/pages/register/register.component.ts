@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+export type EditorType = 'name' | 'profile';
+
 
 @Component({
   selector: 'app-register',
@@ -6,7 +8,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./register.component.scss']
 })
 export class RegisterComponent {
+  editor: EditorType = 'name';
 
-  constructor() { }
+  get showNameEditor() {
+    return this.editor === 'name';
+  }
+
+  get showProfileEditor() {
+    return this.editor === 'profile';
+  }
+
+  toggleEditor(type: EditorType) {
+    this.editor = type;
+  }
+  // constructor() { }
 
 }

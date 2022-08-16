@@ -4,6 +4,8 @@ import { Page404Component } from './page404/page404.component';
 import { Page500Component } from './page500/page500.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
+import   {  NameEditorComponent } from './name-editor/name-editor.component';
+import   {  ProfileEditorComponent } from './profile-editor/profile-editor.component';
 import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
@@ -12,6 +14,20 @@ const routes: Routes = [
     component: Page404Component,
     data: {
       title: 'Page 404'
+    }
+  },
+  {
+    path: 'trader',
+    component: NameEditorComponent,
+    data: {
+      title: 'Register Trader'
+    }
+  },
+  {
+    path: 'tradegroup',
+    component: ProfileEditorComponent,
+    data: {
+      title: 'Register Trade Association'
     }
   },
   {
