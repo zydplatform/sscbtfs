@@ -35,7 +35,8 @@
               <h4 class="mt-1 pb-1">SSCBTFS REGISTRATION</h4>
               <nav>
                 <button type="button" (click)="toggleEditor('name')">Register As A Trader</button>
-                <button type="button" (click)="toggleEditor('profile')">Register As A Trade Group</button>
+                <button type="button" (click)="toggleEditor('name')">Register As A Border Agent</button>
+                <button type="button" (click)="toggleEditor('profile')">Register As A Trade Association</button>
               </nav>
             </div>
             <app-name-editor *ngIf="showNameEditor"></app-name-editor>
